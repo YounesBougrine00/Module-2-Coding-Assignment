@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("cuisine.jpg");
+}
+
+.navbar-brand a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-brand h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar-brand:hover a {
+    color: rgb(53, 158, 106);
+    transition: 0.2s;
+    text-shadow: none;
+    font-size: 105%;
+}
+
+div#collapsable-nav {
+    clear: both;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #b1acac;
+    font-size: 120%;
+    font-weight: 900;
+    color: rgb(28, 88, 58);
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+h1 {
+    color: rgb(252, 247, 247);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 50px;
+    margin-top: 70px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    position: relative;
+}
+
+section {
+    border: 1px solid black;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.39), rgb(214, 221, 212));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+a#to-top {
+    text-decoration: none;
+    font-weight: 800;
+    color: rgb(9, 45, 145);
+    position: relative;
+}
+
+.col-lg-4,
+.col-sm-6,
+.col-sm-12,
+.col-xs-12 {
+    padding: 10px;
+}
+
+p {
+    clear: right;
+    font-weight: bold;
+    font-size: 105%;
+}
+
+h3 {
+    padding: 5px;
+    margin-top: 0%;
+    font-weight: 900;
+}
