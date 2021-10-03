@@ -36,10 +36,6 @@ div#collapsable-nav {
     margin-top: 10px;
 }
 
-#nav-list a {
-    text-align: center;
-}
-
 #nav-list a:hover {
     background: #b1acac;
     font-size: 120%;
